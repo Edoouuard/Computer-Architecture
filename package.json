@@ -1,0 +1,16 @@
+{
+  "name": "labo-puces",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Laboratoire interactif : processeurs, design de puces et industrie des semi-conducteurs",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "node build.mjs",
+    "check": "node test/parcours.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  },
+  "license": "MIT"
+}
